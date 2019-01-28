@@ -3,16 +3,14 @@
     <jdk version="2">
       <name value="Python 3.7" />
       <type value="Python SDK" />
-      <version value="Python 3.7.2" />
+      <version value="Python 3.7.0" />
       <homePath value="/usr/local/bin/python3.7" />
       <roots>
         <classPath>
           <root type="composite">
-            <root url="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
-            <root url="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload" type="simple" />
-            <root url="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages" type="simple" />
-            <root url="file:///usr/local/lib/python3.7/site-packages" type="simple" />
-            <root url="jar:///usr/local/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg!/" type="simple" />
+            <root url="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
+            <root url="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload" type="simple" />
+            <root url="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages" type="simple" />
             <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-1199943126" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
@@ -29,174 +27,23 @@
       <additional />
     </jdk>
     <jdk version="2">
-      <name value="Python 3.7 (Prova)" />
+      <name value="Python 3.6 (conda)" />
       <type value="Python SDK" />
-      <version value="Python 3.7.0" />
-      <homePath value="$USER_HOME$/Desktop/Prova/venv/bin/python" />
+      <version value="Python 3.6.4" />
+      <homePath value="$USER_HOME$/anaconda3/bin/python" />
       <roots>
         <classPath>
           <root type="composite">
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload" type="simple" />
-            <root url="file://$USER_HOME$/Desktop/Prova/venv/lib/python3.7/site-packages" type="simple" />
-            <root url="jar://$USER_HOME$/Desktop/Prova/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg!/" type="simple" />
-            <root url="file://$USER_HOME$/Desktop/Prova/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-579823623" type="simple" />
+            <root url="file://$USER_HOME$/anaconda3/lib/python3.6" type="simple" />
+            <root url="file://$USER_HOME$/anaconda3/lib/python3.6/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/aeosa" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-2088173096" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
-          </root>
-        </classPath>
-        <sourcePath>
-          <root type="composite" />
-        </sourcePath>
-      </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Desktop/Prova" />
-    </jdk>
-    <jdk version="2">
-      <name value="Python 3.7 (BigDataProject)" />
-      <type value="Python SDK" />
-      <version value="Python 3.7.0" />
-      <homePath value="$USER_HOME$/Desktop/BigDataProject/venv/bin/python" />
-      <roots>
-        <classPath>
-          <root type="composite">
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload" type="simple" />
-            <root url="file://$USER_HOME$/Desktop/BigDataProject/venv/lib/python3.7/site-packages" type="simple" />
-            <root url="jar://$USER_HOME$/Desktop/BigDataProject/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg!/" type="simple" />
-            <root url="file://$USER_HOME$/Desktop/BigDataProject/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/966658024" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
-          </root>
-        </classPath>
-        <sourcePath>
-          <root type="composite" />
-        </sourcePath>
-      </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Desktop/BigDataProject" />
-    </jdk>
-    <jdk version="2">
-      <name value="Python 3.7 (MLProj)" />
-      <type value="Python SDK" />
-      <version value="Python 3.7.0" />
-      <homePath value="$USER_HOME$/Desktop/MLProj/venv/bin/python" />
-      <roots>
-        <classPath>
-          <root type="composite">
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload" type="simple" />
-            <root url="file://$USER_HOME$/Desktop/MLProj/venv/lib/python3.7/site-packages" type="simple" />
-            <root url="jar://$USER_HOME$/Desktop/MLProj/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg!/" type="simple" />
-            <root url="file://$USER_HOME$/Desktop/MLProj/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/1840659573" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
-          </root>
-        </classPath>
-        <sourcePath>
-          <root type="composite" />
-        </sourcePath>
-      </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Desktop/MLProj" />
-    </jdk>
-    <jdk version="2">
-      <name value="Python 3.7 (MLproject)" />
-      <type value="Python SDK" />
-      <version value="Python 3.7.0" />
-      <homePath value="$USER_HOME$/Desktop/MLproject/venv/bin/python" />
-      <roots>
-        <classPath>
-          <root type="composite">
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload" type="simple" />
-            <root url="file://$USER_HOME$/Desktop/MLproject/venv/lib/python3.7/site-packages" type="simple" />
-            <root url="jar://$USER_HOME$/Desktop/MLproject/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg!/" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/390967451" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
-          </root>
-        </classPath>
-        <sourcePath>
-          <root type="composite" />
-        </sourcePath>
-      </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Desktop/MLproject" />
-    </jdk>
-    <jdk version="2">
-      <name value="Python 2.7 (venv)" />
-      <type value="Python SDK" />
-      <version value="Python 2.7.10" />
-      <homePath value="$USER_HOME$/venv/bin/python" />
-      <roots>
-        <classPath>
-          <root type="composite">
-            <root url="file://$USER_HOME$/venv/lib/python2.7" type="simple" />
-            <root url="file://$USER_HOME$/venv/lib/python2.7/lib-dynload" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" type="simple" />
-            <root url="file://$USER_HOME$/venv/lib/python2.7/site-packages" type="simple" />
-            <root url="file:///Library/Python/2.7/site-packages/Keras-2.2.4-py2.7.egg" type="simple" />
-            <root url="file:///Library/Python/2.7/site-packages" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/535890979" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
-          </root>
-        </classPath>
-        <sourcePath>
-          <root type="composite" />
-        </sourcePath>
-      </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Desktop/MLproject" />
-    </jdk>
-    <jdk version="2">
-      <name value="Python 2.7" />
-      <type value="Python SDK" />
-      <version value="Python 2.7.10" />
-      <homePath value="/usr/bin/python2.7" />
-      <roots>
-        <classPath>
-          <root type="composite">
-            <root url="file:///Library/Python/2.7/site-packages/Keras-2.2.4-py2.7.egg" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload" type="simple" />
-            <root url="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages" type="simple" />
-            <root url="file:///Library/Python/2.7/site-packages" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python" type="simple" />
-            <root url="file:///System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/-1247972723" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
           </root>
         </classPath>
@@ -207,18 +54,19 @@
       <additional />
     </jdk>
     <jdk version="2">
-      <name value="Python 3.7 (–system-site-packages)" />
+      <name value="Python 3.7 (Prova_keras)" />
       <type value="Python SDK" />
       <version value="Python 3.7.0" />
-      <homePath value="$USER_HOME$/–system-site-packages/bin/python" />
+      <homePath value="$USER_HOME$/Desktop/Università/Machine learning and big data analitics/Prova_keras/venv/bin/python" />
       <roots>
         <classPath>
           <root type="composite">
-            <root url="file://$USER_HOME$/–system-site-packages/lib/python3.7" type="simple" />
-            <root url="file://$USER_HOME$/–system-site-packages/lib/python3.7/lib-dynload" type="simple" />
-            <root url="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
-            <root url="file://$USER_HOME$/–system-site-packages/lib/python3.7/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/685255460" type="simple" />
+            <root url="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7" type="simple" />
+            <root url="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/Desktop/Università/Machine learning and big data analitics/Prova_keras/venv/lib/python3.7/site-packages" type="simple" />
+            <root url="jar://$USER_HOME$/Desktop/Università/Machine learning and big data analitics/Prova_keras/venv/lib/python3.7/site-packages/setuptools-39.1.0-py3.7.egg!/" type="simple" />
+            <root url="file://$USER_HOME$/Desktop/Università/Machine learning and big data analitics/Prova_keras/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/PyCharmCE2018.2/python_stubs/867288857" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
@@ -231,7 +79,7 @@
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Desktop/MLproject" />
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/Desktop/Università/Machine learning and big data analitics/Prova_keras" />
     </jdk>
   </component>
 </application>
