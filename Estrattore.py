@@ -3,12 +3,12 @@ import os.path as pattern
 from models.research.audioset import vggish_slim
 from models.research.audioset import vggish_params
 from models.research.audioset import vggish_input
+from models.research.audioset import vggish_postprocess
 
-
+"""Define VGGish model, load the checkpoint, and return a dictionary that points
+to the different tensors defined by the model.
+"""
 def CreateVGGishNetwork(hop_size=0.96, sess=None):  # Hop size is in seconds.
-    """Define VGGish model, load the checkpoint, and return a dictionary that points
-    to the different tensors defined by the model.
-    """
     vggish_slim.define_vggish_slim()
     checkpoint_path = pattern.abspath('vggish_model.ckpt')
     vggish_params.EXAMPLE_HOP_SECONDS = hop_size
@@ -35,8 +35,29 @@ def CreateVGGishNetwork(hop_size=0.96, sess=None):  # Hop size is in seconds.
     g = tf.get_default_graph()
     for k in layers:
         layers[k] = g.get_tensor_by_name(layers[k] + ':0')
-
     return {'features': features_tensor,
             'embedding': embedding_tensor,
-            'layers': layers,
-            }
+            'layers': layers}
+
+
+'''Run the VGGish model, starting with a sound (x) at sample rate
+(sr). Return a whitened version of the embeddings. Sound must be scaled to be
+floats between -1 and +1.'''
+
+
+def ProcessWithVGGish(vgg, x, sr, sess):
+    # Produce a batch of log mel spectrogram examples.
+    input_batch = vggish_input.waveform_to_examples(x, sr)
+    # print('Log Mel Spectrogram example: ', input_batch[0])
+
+    [embedding_batch] = sess.run([vgg['embedding']],
+                                 feed_dict={vgg['features']: input_batch})
+
+    # Postprocess the results to produce whitened quantized embeddings.
+    pca_params_path = pattern.abspath('vggish_pca_params.npz')
+
+    pproc = vggish_postprocess.Postprocessor(pca_params_path)
+    postprocessed_batch = pproc.postprocess(embedding_batch)
+    # print('Postprocessed VGGish embedding: ', postprocessed_batch[0])
+    return postprocessed_batch[0]
+
