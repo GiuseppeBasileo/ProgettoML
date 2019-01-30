@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="main" type="Python" />
       <mapping pattern="prova" type="Python" />
+      <mapping pattern="main2" type="Python" />
     </extensionMap>
   </component>
 </application>
